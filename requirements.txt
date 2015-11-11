@@ -1,12 +1,5 @@
 tushare>=0.4.0
 nnpy>=0.9.1
-TA-Lib==0.4.8
-
-# zipline need them, use conda to install
-numpy==1.9.2
-scipy==0.15.1
-pandas==0.16.1
-patsy==0.4.0
-statsmodels==0.6.1
+TA-Lib>=0.4.9
 -e git+https://github.com/quantopian/zipline#egg=zipline
 -e git+https://github.com/quantopian/pyfolio#egg=pyfolio
