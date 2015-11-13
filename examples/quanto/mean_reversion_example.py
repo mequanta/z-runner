@@ -10,6 +10,7 @@
 # This type of algorithm may be used in live trading and in the Quantopian Open.
 
 # Import the libraries we will use here
+from zipline.api import get_open_orders
 import numpy as np
 
 # The initialize function is the place to set your tradable universe and define any parameters.

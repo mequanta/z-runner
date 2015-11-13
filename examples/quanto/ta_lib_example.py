@@ -9,6 +9,7 @@ import talib
 import numpy as np
 import math
 
+from zipline.api import history
 # Setup our variables
 def initialize(context):
     context.max_notional = 100000

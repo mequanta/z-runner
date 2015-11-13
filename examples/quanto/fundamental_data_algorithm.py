@@ -7,6 +7,7 @@
     4. Log the positions that we need
 """
 
+from zipline.api import date_rules, time_rules, schedule_function
 import pandas as pd
 import numpy as np
 

@@ -1,9 +1,9 @@
-from quantopian.algorithm import attach_pipeline, pipeline_output
-from quantopian.pipeline import Pipeline
-from quantopian.pipeline import CustomFactor
-from quantopian.pipeline.data.builtin import USEquityPricing
-from quantopian.pipeline.data import morningstar
-from quantopian.pipeline.factors import SimpleMovingAverage
+from zipline.api import attach_pipeline, pipeline_output
+from zipline.pipeline import Pipeline
+from zipline.pipeline import CustomFactor
+from zipline.pipeline.data import USEquityPricing
+from zipline.pipeline.data import morningstar
+from zipline.pipeline.factors import SimpleMovingAverage
 
 
 # Create custom factor subclass to calculate a market cap based on yesterday's

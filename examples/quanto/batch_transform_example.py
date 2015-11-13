@@ -1,3 +1,4 @@
+from zipline.api import batch_transform, symbols
 # This is the standard Quantopian function that initializes your data and
 # variables. In it, we define how large of a 'bet' we're making (in dollars) and what
 # stock we're working with.

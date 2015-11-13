@@ -1,9 +1,8 @@
 # The pipeline API requires imports.
-from quantopian.pipeline import Pipeline
-from quantopian.algorithm import attach_pipeline, pipeline_output
-from quantopian.pipeline.data.builtin import USEquityPricing
-from quantopian.pipeline.factors import SimpleMovingAverage
-
+from zipline.api import attach_pipeline, pipeline_output, update_universe
+from zipline.pipeline import Pipeline
+from zipline.pipeline.data import USEquityPricing
+from zipline.pipeline.factors import SimpleMovingAverage
 
 def initialize(context):
 

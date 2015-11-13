@@ -1,3 +1,4 @@
+from zipline.api import slippage, sid, set_slippage
 # Our custom slippage model
 class PerStockSpreadSlippage(slippage.SlippageModel):
 

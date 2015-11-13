@@ -95,6 +95,17 @@ def run_pipeline(print_algo=True, **kwargs):
         else:
             print_(algo_text)
 
+    algo_text = '''
+from zipline.api import order, record, symbol, order_target
+import logbook
+logbook.StderrHandler().push_application()
+log = logbook.Logger()
+''' + algo_text + '''
+
+
+
+'''
+
     algo = zipline.TradingAlgorithm(script=algo_text,
                                     namespace=kwargs.get('namespace', {}),
                                     capital_base=float(kwargs['capital_base']),

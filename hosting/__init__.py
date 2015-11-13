@@ -11,18 +11,6 @@ class QuantopianTradingAlgorithm(_TradingAlgorithm):
     pass
 
 
-def symbol():
-    pass
-
-
-def symbols():
-    pass
-
-
-def set_symbol_lookup_date():
-    pass
-
-
 def sid(security_id):
     pass
 
